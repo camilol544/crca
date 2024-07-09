@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consigue una Novia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Consigue una Novia</h1>
+    </header>
+    <main>
+        <section id="formulario">
+            <h2>Regístrate aquí para encontrar tu pareja ideal:</h2>
+            <form action="registro.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" required>
+
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+
+                <label for="foto">Sube tu foto:</label>
+                <input type="file" id="foto" name="foto" accept="image/*" required>
+
+                <button type="submit">Registrarse</button>
+            </form>
+        </section>
+        <section id="perfiles">
+            <h2 class="texto">Perfiles Disponibles:</h2>
+            <div class="perfil">
+                <img src="craca.jpg" alt="Perfil 1">
+                <h3>Cracatoa:</h3>
+                <p>honesto, fachero, capo, drogadicto, futuro streamer,
+                     racista, xenofobo (especialmente con los peruanos), gracioso, odio con todo mi ser
+                     a las mujeres con transtornos mentales, ya me tocaron muchas de esas y estan todas locas.
+                     busco a alguien con quien compartir mis experiencias en el lol y GTA HUB.</p>
+                     <button>Contactar</button>
+            </div>
+           
+            <!-- Más perfiles aquí -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Consigue una Novia - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
